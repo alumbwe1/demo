@@ -1,0 +1,620 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sawa — Payroll, settled across Africa</title>
+    <meta
+      name="description"
+      content="Sawa runs compliant, multi-currency payroll across 12 African markets in one platform. Local taxes filed, FX handled, and a single settlement in your home currency."
+    />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23111111'/%3E%3Ccircle cx='16' cy='16' r='6' fill='%23C94B21'/%3E%3C/svg%3E" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem("sawa-theme");
+          var prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+          var theme = stored || (prefersDark ? "dark" : "light");
+          document.documentElement.setAttribute("data-theme", theme);
+        } catch (e) {
+          document.documentElement.setAttribute("data-theme", "light");
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" id="site-header">
+      <div class="nav-shell">
+        <a class="brand" href="#top" aria-label="Sawa home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none">
+              <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5" />
+              <circle cx="12" cy="12" r="3.6" fill="var(--accent)" />
+            </svg>
+          </span>
+          <span class="brand-word">sawa</span>
+        </a>
+
+        <nav class="desktop-nav" aria-label="Primary">
+          <a href="#product">Product</a>
+          <a href="#features">Features</a>
+          <a href="#workflow">Workflow</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#faq">FAQ</a>
+        </nav>
+
+        <div class="nav-actions">
+          <a class="nav-login" href="#">Log in</a>
+          <button class="btn btn-primary nav-cta" type="button">Book a demo</button>
+          <button class="theme-toggle" type="button" aria-label="Toggle color theme" aria-pressed="false">
+            <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+              <circle cx="12" cy="12" r="4" />
+              <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" />
+            </svg>
+            <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z" />
+            </svg>
+          </button>
+          <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+      <nav aria-label="Mobile">
+        <a href="#product">Product</a>
+        <a href="#features">Features</a>
+        <a href="#workflow">Workflow</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <div class="mobile-menu-actions">
+        <a class="btn btn-ghost" href="#">Log in</a>
+        <button class="btn btn-primary" type="button">Book a demo</button>
+      </div>
+      <p class="mobile-menu-note">Payroll, settled across Africa.</p>
+    </div>
+
+    <main id="main">
+      <!-- ============ HERO ============ -->
+      <section class="hero" id="top">
+        <div class="hero-glow" aria-hidden="true"></div>
+        <div class="container hero-inner">
+          <p class="eyebrow reveal">Pan-African payroll, in one platform</p>
+          <h1 class="hero-title reveal">
+            Payroll, <em>settled</em> across Africa.
+          </h1>
+          <p class="hero-sub reveal">
+            Sawa runs compliant, multi-currency payroll across 12 African markets from a single
+            platform. Local taxes filed, FX handled, and one settlement in your home currency.
+          </p>
+          <div class="hero-ctas reveal">
+            <button class="btn btn-primary btn-lg" type="button">Book a demo</button>
+            <a class="btn btn-ghost btn-lg" href="#product">See the platform
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+            </a>
+          </div>
+
+          <div class="hero-cards reveal">
+            <div class="glass-card hero-card-a" aria-hidden="true">
+              <div class="glass-card-top">
+                <span class="glass-label">March payroll</span>
+                <span class="glass-pulse"></span>
+              </div>
+              <strong class="glass-amount">$184,320</strong>
+              <span class="glass-meta">214 people · 7 markets · settled</span>
+            </div>
+            <div class="glass-card hero-card-b" aria-hidden="true">
+              <div class="glass-label">Live FX</div>
+              <div class="fx-row"><span>USD → NGN</span><strong>1,461.20</strong></div>
+              <div class="fx-row"><span>USD → KES</span><strong>128.90</strong></div>
+              <div class="fx-row"><span>USD → ZAR</span><strong>18.14</strong></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ PRODUCT PREVIEW ============ -->
+      <section class="preview-section" id="product">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">The platform</p>
+            <h2 class="section-title">Everything a finance team needs.<br />Nothing it doesn't.</h2>
+          </div>
+
+          <div class="preview-wrap reveal">
+            <div class="preview-glow" aria-hidden="true"></div>
+            <div class="preview-shell">
+              <div class="preview-chrome">
+                <span class="chrome-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+                <span class="chrome-url">app.sawa.africa</span>
+                <span class="chrome-side" aria-hidden="true"></span>
+              </div>
+
+              <div class="preview-app">
+                <aside class="preview-sidebar" aria-hidden="true">
+                  <div class="side-brand"><span class="brand-mark sm"><svg viewBox="0 0 24 24" width="16" height="16" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="3.6" fill="var(--accent)"/></svg></span> sawa</div>
+                  <nav class="side-nav">
+                    <span class="side-item active">Payroll</span>
+                    <span class="side-item">Compliance</span>
+                    <span class="side-item">FX &amp; settlement</span>
+                    <span class="side-item">Team</span>
+                    <span class="side-item">Reports</span>
+                  </nav>
+                  <div class="side-footer">
+                    <span class="side-avatar" aria-hidden="true"></span>
+                    <span class="side-user">Finance · HQ</span>
+                  </div>
+                </aside>
+
+                <div class="preview-main">
+                  <div class="preview-toolbar">
+                    <div>
+                      <p class="toolbar-kicker">Payroll run</p>
+                      <h3 class="toolbar-title">March 2025</h3>
+                    </div>
+                    <div class="toolbar-actions">
+                      <span class="toolbar-status">Ready to settle</span>
+                      <button class="toolbar-btn" type="button">Run payroll</button>
+                    </div>
+                  </div>
+
+                  <div class="preview-tabs" role="tablist" aria-label="Product views">
+                    <button class="tab-btn active" data-tab="dashboard" role="tab" aria-selected="true" type="button">Dashboard</button>
+                    <button class="tab-btn" data-tab="compliance" role="tab" aria-selected="false" type="button">Compliance</button>
+                    <button class="tab-btn" data-tab="fx" role="tab" aria-selected="false" type="button">FX &amp; settlement</button>
+                  </div>
+
+                  <div class="tab-panel active" data-panel="dashboard" role="tabpanel">
+                    <div class="metric-row">
+                      <div class="metric"><span class="metric-label">Total run</span><strong>$184,320</strong></div>
+                      <div class="metric"><span class="metric-label">Employees</span><strong>214</strong></div>
+                      <div class="metric"><span class="metric-label">Markets</span><strong>7</strong></div>
+                    </div>
+
+                    <div class="chart" aria-hidden="true">
+                      <div class="chart-bars">
+                        <span class="bar" style="--h: 42%"><i></i><b>NG</b></span>
+                        <span class="bar" style="--h: 66%"><i></i><b>KE</b></span>
+                        <span class="bar" style="--h: 38%"><i></i><b>ZA</b></span>
+                        <span class="bar" style="--h: 74%"><i></i><b>GH</b></span>
+                        <span class="bar" style="--h: 52%"><i></i><b>EG</b></span>
+                        <span class="bar" style="--h: 88%"><i></i><b>RW</b></span>
+                        <span class="bar" style="--h: 60%"><i></i><b>TZ</b></span>
+                      </div>
+                    </div>
+
+                    <table class="pay-table">
+                      <thead>
+                        <tr><th>Employee</th><th>Market</th><th>Amount</th><th>Status</th></tr>
+                      </thead>
+                      <tbody>
+                        <tr><td><span class="cell-avatar a1"></span>Amara Okafor</td><td>Nigeria</td><td>$4,820</td><td><span class="dot paid"></span>Paid</td></tr>
+                        <tr><td><span class="cell-avatar a2"></span>Brian Wanjiku</td><td>Kenya</td><td>$3,150</td><td><span class="dot paid"></span>Paid</td></tr>
+                        <tr><td><span class="cell-avatar a3"></span>Lindiwe Nkosi</td><td>South Africa</td><td>$4,100</td><td><span class="dot pending"></span>Pending</td></tr>
+                        <tr><td><span class="cell-avatar a4"></span>Kwame Mensah</td><td>Ghana</td><td>$2,980</td><td><span class="dot paid"></span>Paid</td></tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                  <div class="tab-panel" data-panel="compliance" role="tabpanel">
+                    <div class="compliance-list">
+                      <div class="compliance-item"><span class="compliance-flag">NG</span><div class="compliance-body"><strong>Nigeria · PAYE</strong><span>Filed with LIRS for 214 employees</span></div><span class="compliance-state done">Filed</span></div>
+                      <div class="compliance-item"><span class="compliance-flag">KE</span><div class="compliance-body"><strong>Kenya · NSSF &amp; NHIF</strong><span>Statutory due Mar 9</span></div><span class="compliance-state due">Due</span></div>
+                      <div class="compliance-item"><span class="compliance-flag">ZA</span><div class="compliance-body"><strong>South Africa · UIF</strong><span>Submitted to SARS</span></div><span class="compliance-state done">Filed</span></div>
+                      <div class="compliance-item"><span class="compliance-flag">GH</span><div class="compliance-body"><strong>Ghana · SSNIT</strong><span>Auto-scheduled for Mar 12</span></div><span class="compliance-state due">Due</span></div>
+                    </div>
+                  </div>
+
+                  <div class="tab-panel" data-panel="fx" role="tabpanel">
+                    <div class="fx-note">0.4% above mid-market, locked at approval.</div>
+                    <div class="fx-list">
+                      <div class="fx-item"><span>USD → NGN</span><strong>1,461.20</strong><em>settled</em></div>
+                      <div class="fx-item"><span>USD → KES</span><strong>128.90</strong><em>settled</em></div>
+                      <div class="fx-item"><span>USD → ZAR</span><strong>18.14</strong><em>settled</em></div>
+                      <div class="fx-item"><span>USD → GHS</span><strong>14.62</strong><em>settled</em></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ TRUSTED BY ============ -->
+      <section class="trusted-section" aria-label="Trusted by">
+        <div class="container">
+          <p class="trusted-label reveal">Powering payroll for finance teams at</p>
+          <div class="trusted-row reveal">
+            <span class="logo-wordmark l1">Paystack</span>
+            <span class="logo-wordmark l2">Flutterwave</span>
+            <span class="logo-wordmark l3">Andela</span>
+            <span class="logo-wordmark l4">Kuda</span>
+            <span class="logo-wordmark l1">Chipper Cash</span>
+            <span class="logo-wordmark l2">Cellulant</span>
+            <span class="logo-wordmark l3">M-KOPA</span>
+            <span class="logo-wordmark l4">Twiga Foods</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ FEATURES ============ -->
+      <section class="features-section" id="features">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">Why Sawa</p>
+            <h2 class="section-title">Built for the way Africa actually works.</h2>
+          </div>
+
+          <div class="bento reveal">
+            <article class="bento-card tall reveal">
+              <div class="bento-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V8l7-5 7 5v13"/><path d="M9 21v-6h6v6"/></svg>
+              </div>
+              <h3>Compliance, filed on your behalf</h3>
+              <p>PAYE, NSSF, NHIF, UIF, SSNIT and every statutory in between. Sawa files on time in each market so you never chase a tax deadline again.</p>
+              <ul class="bento-list">
+                <li>Statutory calendars per market</li>
+                <li>Local tax IDs managed for you</li>
+                <li>Penalty-free filing guarantee</li>
+              </ul>
+            </article>
+
+            <article class="bento-card wide reveal">
+              <div class="bento-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 6.5c0-1.9-2.2-3-5-3s-5 1.1-5 3 2.2 3 5 3 5 1.1 5 3-2.2 3-5 3-5-1.1-5-3"/></svg>
+              </div>
+              <h3>One settlement. Twelve currencies.</h3>
+              <p>Fund once in USD, EUR or GBP. Sawa converts at the mid-market rate and pays every employee in local currency.</p>
+              <div class="currency-strip" aria-hidden="true">
+                <span>NGN</span><span>KES</span><span>ZAR</span><span>GHS</span><span>EGP</span><span>RWF</span><span>TZS</span><span>UGX</span>
+              </div>
+            </article>
+
+            <article class="bento-card reveal">
+              <div class="bento-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18M7 6V4h10v2M5 6l1 14h12l1-14"/><path d="M10 10v6M14 10v6"/></svg>
+              </div>
+              <h3>Audit-ready by default</h3>
+              <p>Every run produces a complete ledger with receipts, payslips and tax proofs you can export in a click.</p>
+            </article>
+
+            <article class="bento-card reveal">
+              <div class="bento-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-6 8-6s8 2 8 6"/></svg>
+              </div>
+              <h3>Employee self-service</h3>
+              <p>Payslips, contracts and tax documents live in a clean portal your team actually enjoys using.</p>
+            </article>
+
+            <article class="bento-card wide reveal">
+              <div class="bento-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10M10 20V4M16 20v-9M22 20H2"/></svg>
+              </div>
+              <h3>Reconcile in real time</h3>
+              <p>Sync Sawa with your general ledger, ERP or BI tool. Every payout, fee and FX line lands where your accountants expect it.</p>
+              <div class="sparkline" aria-hidden="true">
+                <span style="--s: 30%"></span><span style="--s: 46%"></span><span style="--s: 40%"></span><span style="--s: 62%"></span><span style="--s: 58%"></span><span style="--s: 78%"></span><span style="--s: 88%"></span>
+              </div>
+            </article>
+
+            <article class="bento-card reveal">
+              <div class="bento-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3Z"/><path d="M9 12l2 2 4-4"/></svg>
+              </div>
+              <h3>Employer of record</h3>
+              <p>No local entity? Hire compliantly through Sawa's in-market EOR and skip incorporation entirely.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ WORKFLOW ============ -->
+      <section class="workflow-section" id="workflow">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">How it works</p>
+            <h2 class="section-title">From spreadsheet to settled, in a morning.</h2>
+          </div>
+
+          <ol class="steps reveal">
+            <li class="step reveal">
+              <span class="step-num">01</span>
+              <h3>Onboard your teams</h3>
+              <p>Add employees or sync from your HRIS. Sawa maps each person to the right entity, currency and tax profile.</p>
+            </li>
+            <li class="step reveal">
+              <span class="step-num">02</span>
+              <h3>Approve the run</h3>
+              <p>Review one consolidated payroll. Sawa calculates statutory deductions and FX before you commit.</p>
+            </li>
+            <li class="step reveal">
+              <span class="step-num">03</span>
+              <h3>Settle once</h3>
+              <p>Fund a single account. Sawa pays every employee locally and files every statutory on schedule.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- ============ STATS ============ -->
+      <section class="stats-section" aria-label="Platform facts">
+        <div class="container">
+          <div class="stats-grid reveal">
+            <div class="stat reveal">
+              <strong class="stat-value">12</strong>
+              <span class="stat-label">African markets, one platform</span>
+            </div>
+            <div class="stat reveal">
+              <strong class="stat-value">24h</strong>
+              <span class="stat-label">Average time to settle a run</span>
+            </div>
+            <div class="stat reveal">
+              <strong class="stat-value">0.4%</strong>
+              <span class="stat-label">Above mid-market FX, always</span>
+            </div>
+            <div class="stat reveal">
+              <strong class="stat-value">100%</strong>
+              <span class="stat-label">Statutory filings on time</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ TESTIMONIALS ============ -->
+      <section class="testimonials-section">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">Word from the field</p>
+            <h2 class="section-title">Finance leaders run calmer with Sawa.</h2>
+          </div>
+
+          <div class="quotes reveal">
+            <figure class="quote reveal">
+              <blockquote>
+                "We moved payroll for three entities onto Sawa in a week. Finance closed March a day early, without a single manual reconciliation."
+              </blockquote>
+              <figcaption>
+                <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=160&q=80" alt="Portrait of Amara Okafor" loading="lazy" width="48" height="48" />
+                <span class="quote-name">Amara Okafor</span>
+                <span class="quote-role">Head of People Operations · Lagos</span>
+              </figcaption>
+            </figure>
+
+            <figure class="quote reveal">
+              <blockquote>
+                "The FX line used to cost us a point and a half of salary spend. Sawa cut that to less than half a point, with the receipts to prove it."
+              </blockquote>
+              <figcaption>
+                <img src="https://images.unsplash.com/photo-1531384441138-2736e62e0919?auto=format&fit=crop&w=160&q=80" alt="Portrait of Daniel Mwangi" loading="lazy" width="48" height="48" />
+                <span class="quote-name">Daniel Mwangi</span>
+                <span class="quote-role">CFO · Nairobi</span>
+              </figcaption>
+            </figure>
+
+            <figure class="quote reveal">
+              <blockquote>
+                "Statutory filing in four markets used to be someone's full-time job. Now it's a notification that says filed."
+              </blockquote>
+              <figcaption>
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=160&q=80" alt="Portrait of Tunde Adeyemi" loading="lazy" width="48" height="48" />
+                <span class="quote-name">Tunde Adeyemi</span>
+                <span class="quote-role">Finance Director · Accra</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ PRICING ============ -->
+      <section class="pricing-section" id="pricing">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">Pricing</p>
+            <h2 class="section-title">Transparent from the first rand to the last.</h2>
+            <div class="billing-toggle reveal" role="group" aria-label="Billing period">
+              <button class="billing-btn active" data-period="monthly" type="button">Monthly</button>
+              <button class="billing-btn" data-period="annual" type="button">Annual <span class="billing-save">save 20%</span></button>
+            </div>
+          </div>
+
+          <div class="price-grid reveal">
+            <article class="price-card reveal">
+              <h3>Local</h3>
+              <p class="price-desc">For teams paying in a single market.</p>
+              <p class="price"><span class="price-currency">$</span><span class="price-amount" data-monthly="149" data-annual="119">149</span><span class="price-period">/month</span></p>
+              <ul class="price-features">
+                <li>Payroll in one market</li>
+                <li>Statutory filing included</li>
+                <li>Employee self-service</li>
+                <li>Email support</li>
+              </ul>
+              <button class="btn btn-ghost btn-block" type="button">Start free</button>
+            </article>
+
+            <article class="price-card featured reveal">
+              <span class="price-flag">Most popular</span>
+              <h3>Continental</h3>
+              <p class="price-desc">For teams operating across several markets.</p>
+              <p class="price"><span class="price-currency">$</span><span class="price-amount" data-monthly="399" data-annual="319">399</span><span class="price-period">/month</span></p>
+              <ul class="price-features">
+                <li>Payroll in up to 5 markets</li>
+                <li>Mid-market FX, locked rates</li>
+                <li>Employer of record</li>
+                <li>Ledger &amp; ERP sync</li>
+                <li>Priority support</li>
+              </ul>
+              <button class="btn btn-primary btn-block" type="button">Book a demo</button>
+            </article>
+
+            <article class="price-card reveal">
+              <h3>Enterprise</h3>
+              <p class="price-desc">For complex, multi-entity organisations.</p>
+              <p class="price"><span class="price-amount price-custom">Custom</span></p>
+              <ul class="price-features">
+                <li>Unlimited markets</li>
+                <li>Dedicated compliance lead</li>
+                <li>SSO &amp; API access</li>
+                <li>Custom settlement rails</li>
+                <li>Dedicated support</li>
+              </ul>
+              <button class="btn btn-ghost btn-block" type="button">Talk to sales</button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ FAQ ============ -->
+      <section class="faq-section" id="faq">
+        <div class="container faq-grid">
+          <div class="faq-head reveal">
+            <p class="eyebrow">FAQ</p>
+            <h2 class="section-title">Answers, before you ask.</h2>
+            <p class="faq-cta-note">Still curious? <a href="#">Talk to our team</a></p>
+          </div>
+
+          <div class="faq-list reveal">
+            <div class="faq-item reveal">
+              <button class="faq-q" type="button" aria-expanded="false">
+                <span>Which countries does Sawa support?</span>
+                <span class="faq-icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq-a"><p>Sawa supports 12 markets today: Nigeria, Kenya, South Africa, Ghana, Egypt, Rwanda, Tanzania, Uganda, Zambia, Senegal, Côte d'Ivoire and Morocco. New markets ship quarterly.</p></div>
+            </div>
+            <div class="faq-item reveal">
+              <button class="faq-q" type="button" aria-expanded="false">
+                <span>Do I need a local entity to pay employees?</span>
+                <span class="faq-icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq-a"><p>No. If you have a local entity, we run payroll through it. If you don't, our employer of record lets you hire compliantly without incorporating.</p></div>
+            </div>
+            <div class="faq-item reveal">
+              <button class="faq-q" type="button" aria-expanded="false">
+                <span>How does FX conversion actually work?</span>
+                <span class="faq-icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq-a"><p>You fund in USD, EUR or GBP. We convert at the live mid-market rate plus 0.4%, locked the moment you approve a run. No hidden spreads, no weekend surcharges.</p></div>
+            </div>
+            <div class="faq-item reveal">
+              <button class="faq-q" type="button" aria-expanded="false">
+                <span>What happens if a filing or payment is late?</span>
+                <span class="faq-icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq-a"><p>We track every statutory deadline and settle early. If Sawa ever misses a filing through our fault, we cover the resulting penalties in full.</p></div>
+            </div>
+            <div class="faq-item reveal">
+              <button class="faq-q" type="button" aria-expanded="false">
+                <span>Can we migrate from our current provider?</span>
+                <span class="faq-icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq-a"><p>Yes. Our onboarding team handles historical payroll data, employee records and tax IDs. Most teams are fully migrated within two weeks.</p></div>
+            </div>
+            <div class="faq-item reveal">
+              <button class="faq-q" type="button" aria-expanded="false">
+                <span>How is our data secured and stored?</span>
+                <span class="faq-icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq-a"><p>Sawa is SOC 2 Type II certified with data residency options across Lagos, Nairobi and Amsterdam. Access is scoped by role, and every action is audited.</p></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ FINAL CTA ============ -->
+      <section class="final-cta">
+        <div class="final-glow" aria-hidden="true"></div>
+        <div class="container final-inner reveal">
+          <p class="eyebrow reveal">Ready when you are</p>
+          <h2 class="final-title reveal">Payroll that keeps pace<br />with a moving continent.</h2>
+          <p class="final-sub reveal">Book a 30-minute walkthrough and see your own payroll, mapped to the markets you hire in.</p>
+          <div class="final-ctas reveal">
+            <button class="btn btn-primary btn-lg" type="button">Book a demo</button>
+            <a class="btn btn-ghost-on-dark btn-lg" href="#pricing">View pricing</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="#top" aria-label="Sawa home">
+            <span class="brand-mark" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="3.6" fill="var(--accent)"/></svg>
+            </span>
+            <span class="brand-word">sawa</span>
+          </a>
+          <p class="footer-tagline">Payroll, settled across Africa.</p>
+          <form class="footer-news" action="#" method="post">
+            <label for="news-email">Product updates, monthly.</label>
+            <div class="news-row">
+              <input id="news-email" type="email" placeholder="you@company.com" required />
+              <button class="btn btn-primary" type="submit">Subscribe</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="footer-col">
+          <h3>Product</h3>
+          <a href="#product">Platform</a>
+          <a href="#features">Features</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#">Integrations</a>
+        </div>
+        <div class="footer-col">
+          <h3>Company</h3>
+          <a href="#">About</a>
+          <a href="#">Careers</a>
+          <a href="#">Press</a>
+          <a href="#">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h3>Resources</h3>
+          <a href="#">Payroll guides</a>
+          <a href="#">Market explorer</a>
+          <a href="#">API docs</a>
+          <a href="#">Status</a>
+        </div>
+        <div class="footer-col">
+          <h3>Legal</h3>
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Security</a>
+          <a href="#">DPA</a>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>© 2025 Sawa Technologies Ltd. Built across Lagos and Nairobi.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="X (Twitter)">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M18.9 2H22l-6.8 7.8L23.2 22h-6.3l-4.9-6.4L6.4 22H3.3l7.3-8.3L2.8 2h6.4l4.4 5.9L18.9 2Zm-1.1 18h1.7L7.1 3.7H5.3L17.8 20Z"/></svg>
+          </a>
+          <a href="#" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1-.02 5 2.5 2.5 0 0 1 .02-5ZM3 9h4v12H3V9Zm7 0h3.8v1.7h.1c.5-1 1.8-2 3.7-2 4 0 4.7 2.6 4.7 6V21h-4v-5.3c0-1.3 0-2.9-1.8-2.9s-2 1.4-2 2.8V21h-4V9Z"/></svg>
+          </a>
+          <a href="#" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.2-3.4-1.2-.4-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.6 2.4 1.1 3 .9.1-.7.4-1.1.6-1.4-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.8 1a9.6 9.6 0 0 1 5 0c1.9-1.3 2.8-1 2.8-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.9-2.4 4.7-4.6 5 .4.3.7.9.7 1.9v2.8c0 .3.2.6.7.5A10 10 0 0 0 12 2Z"/></svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
